@@ -3,6 +3,7 @@ from datetime import date
 class Producto:
     def __init__(self, descripcion, id, fecha_exp, info):
         self.descripcion = descripcion
+        
         self.id = id
         self.fecha_exp = fecha_exp
         self.info = info
